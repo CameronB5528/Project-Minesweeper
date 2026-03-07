@@ -1,1 +1,5 @@
 # Project-Minesweeper
+
+# This project is a Minesweeper game complete with many of the main functions in the popular versions, including flagging, flood fill, an easy 9x9 and hard 16x16 mode, mine counting, and mine revealing in failure.
+
+# Once the code is run, the pygame gui will pop up and allow a choice of easy or hard difficult. Upon clicking of either choice the smaller or larger grid will appear. The first click will be safe and upon selection of an area with multiple safe squares surrounding, a flood fill will activate showing all the connecting safe squares. The logic runs the same as normal versions, with squares indicating proximity of mines and a right-clicking flag feature producing a red icon indicating a non-safe square, which can be undone with a second right click. If a mine is selected a game over screen will initiate asking to click to play again in which the player will be returned for the main menu for difficulty selection. Upon winning a victory screen will insue with the same function as the defeat screen. The gui will continue until the player quits out of the window.
